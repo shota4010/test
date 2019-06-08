@@ -1,0 +1,124 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+article {
+    background-image:linear-gradient(rgba(0,0,0,0.5)), url('img/img-1.jpg')no-repeat;
+    background-size: 100%;
+    background-size: cover;
+    height: 100vh;
+    border: none;
+}
+
+article h1{
+    position: fixed;
+    padding: 5px 5px;
+    color: white;
+    font-size: 31px;
+}
+
+
+article ul li{
+    float:right;
+    display: inline;
+}
+
+article ul li{
+    display: inline-block;
+    margin: 10px 5px
+}
+
+
+article ul a{
+    text-decoration: none;
+    color: white;
+    padding: 5px 20px;
+    border: 1px solid white;
+    transition: 0.1s ease;
+}
+
+article ul li a:hover{
+    background-color: rgba(248, 242, 242, 0.8);
+    color: white;
+}
+
+article .title{
+    position: absolute;
+    top: 35%;
+    left: 42%;
+    transform: translate(-50%, -50%);
+}
+
+article .title h1{
+    color: white;
+    font-size: 100px
+}
+
+
+#sidebar {
+    position: fixed;
+    width: 150px;
+    height: 100%;
+    background: rgba(66.3, 66.3, 66.3, 0.95);
+    left: -150px
+}
+
+#sidebar.active {
+    left: 0px;
+}
+#sidebar ul {
+    margin-top: 20px;
+
+}
+
+#sidebar ul li {
+    list-style: none;
+    border-bottom: 1px solid white;
+    padding: 10px 15px 20px 10px;
+    
+}
+
+#sidebar ul li a {
+    color:white;
+    text-decoration: none;
+    right: 50px;
+    top: 20px;
+}
+
+#sidebar .bars {
+    position: absolute;
+    left: 170px;
+    top: 40px;
+
+}
+
+#sidebar .bars span {
+    display:block;
+    width:30px;
+    height:5px;
+    background: white;
+    margin: 5px 0px;
+}
+
+#sidebar p {
+    margin-bottom: 1px;
+
+}
+
+main {
+    border-top: solid gray;
+    border-top-width: 20px;
+
+}
+
+main nav {
+    margin: auto;
+}
+
+main nav img {
+    margin: auto;
+    width: 20%;
+
+}
